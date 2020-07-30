@@ -150,7 +150,7 @@ _showFullScreenWithRotateBox(
 
         return _RotateBoxProvider(
           quarterTurns: quarterTurns,
-          child: SafeArea(
+          child: Container(
             child: RotatedBox(
               quarterTurns: quarterTurns,
               child: IjkPlayer(
